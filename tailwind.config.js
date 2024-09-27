@@ -13,6 +13,13 @@ module.exports = {
       Jost: ["Jost", "sans-serif"],
       Lobster: ["Lobster", "sans-serif"],
     },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "12px",
+        md: "32px",
+      },
+    },
   },
 
   plugins: [],
