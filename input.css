@@ -60,3 +60,9 @@ h3 {
 .title {
   @apply font-Lobster text-yellow-500;
 }
+
+/* Popular Section */
+
+.popular-card:hover img {
+  @apply -top-8;
+}
