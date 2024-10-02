@@ -21,6 +21,10 @@ body {
   @apply text-yellow-500;
 }
 
+.active {
+  @apply text-yellow-500;
+}
+
 /* Main */
 section {
   @apply py-20 md:py-28;
