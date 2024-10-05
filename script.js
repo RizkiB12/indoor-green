@@ -107,5 +107,11 @@ const sr = ScrollReveal({
   reset: true,
 });
 
-sr.reveal(`.home-data`);
+sr.reveal(`.home-data, .about-top, .popular-top`);
 sr.reveal(`.home-image`, { delay: 500, scale: 0.7 });
+
+sr.reveal(`.service-card, .popular-card`, { interval: 100 });
+
+sr.reveal(`.about-leaf`, { delay: 1000, origin: "right" });
+sr.reveal(`.about-item-one-content, .about-item-one-img`, { origin: "right" });
+sr.reveal(`.about-item-two-content, .about-item-two-img`, { origin: "left" });
