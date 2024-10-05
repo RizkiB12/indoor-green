@@ -97,3 +97,15 @@ const activeLink = () => {
   });
 };
 window.addEventListener("scroll", activeLink);
+
+// Scrool Reveal
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 300,
+  reset: true,
+});
+
+sr.reveal(`.home-data`);
+sr.reveal(`.home-image`, { delay: 500, scale: 0.7 });
