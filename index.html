@@ -443,20 +443,22 @@
 
       <!-- Review Start -->
       <section id="review" class="relative mb-20 md:mb-28 overflow-hidden">
-        <div class="absolute -top-8 -right-12 opacity-50">
+        <div class="review-leaf absolute -top-8 -left-12 opacity-50">
           <img
-            src="./assets/img/leaf-3.png"
+            src="./assets/img/leaf-4.png"
             alt="leaf"
             class="w-40 md:w-52 xl:w-64"
           />
         </div>
 
-        <div class="flex flex-col items-center gap-3 text-center mb-20">
+        <div
+          class="review-top flex flex-col items-center gap-3 text-center mb-20"
+        >
           <h2 class="title">Customer Review</h2>
           <p class="max-w-2xl">Follow instruction for more</p>
         </div>
 
-        <div class="container">
+        <div class="review-swiper container">
           <div class="swiper py-12">
             <ul class="swiper-wrapper">
               <li class="swiper-slide">
@@ -521,6 +523,27 @@
                   </div>
                 </div>
               </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                  <p class="font-Lobster">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eveniet, asperiores!
+                  </p>
+                  <div class="flex items-center">
+                    <img
+                      src="./assets/img/review-4.jpg"
+                      alt="review image one"
+                      class="w-12 h-12 rounded-full"
+                    />
+                    <div class="ml-2">
+                      <p>Arne Slot</p>
+                      <p>Coach</p>
+                    </div>
+                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                  </div>
+                </div>
+              </li>
             </ul>
 
             <div class="swiper-pagination"></div>
@@ -558,7 +581,7 @@
       </div>
 
       <!-- Social Media Icon -->
-      <div class="container mt-16 mb-10">
+      <div class="footer_icon container mt-16 mb-10">
         <div class="border-b border-green-500 relative">
           <div
             class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto"
@@ -583,7 +606,7 @@
 
       <!-- Content Footer -->
       <div
-        class="footer__content container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start"
+        class="footer-content container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start"
       >
         <!-- Item One -->
         <div>
@@ -631,7 +654,7 @@
       </div>
 
       <!-- Copyright -->
-      <div class="copy__right container">
+      <div class="footer-copyright container">
         <p class="text-center mt-10 opacity-50">
           Copyright &copy; 2024 RizkiB12. All rights reserved.
         </p>
@@ -639,7 +662,7 @@
 
       <!-- Floral Image -->
       <!-- <div
-        class="footer__floral absolute bottom-0 left-0 opacity-20 pointer-events-none"
+        class="footer-floral absolute bottom-0 left-0 opacity-20 pointer-events-none"
       >
         <img
           src="./assets/img/floral-1.png"
